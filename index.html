@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Tic-Tac-Toe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Share+Tech+Mono&family=VT323&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="circle-xmark-solid.svg">
+  <!-- import the webpage's stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- import the webpage's javascript file -->
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <h1>Tic-Tac-Toe</h1>
+  <div class="modal hidden">
+    <div class="modalContent">
+      <p></p>
+      <div class="modalButtons">
+        <button id="playAgain">Play again</button>
+        <div class="spacer"></div>
+        <button id="goodbye">Goodbye!</button>
+      </div>
+    </div>
+  </div>
+  <main class="allSquares">
+    <div class="row">
+      <div id="A1" class="cell"></div>
+      <div id="A2" class="cell"></div>
+      <div id="A3" class="cell"></div>
+    </div>
+    <div class="row">
+      <div id="B1" class="cell"></div>
+      <div id="B2" class="cell"></div>
+      <div id="B3" class="cell"></div>
+    </div>
+    <div class="row">
+      <div id="C1" class="cell"></div>
+      <div id="C2" class="cell"></div>
+      <div id="C3" class="cell"></div>
+    </div>
+    <h2 id="status"></h2>
+  </main>
+</body>
+
+</html>
