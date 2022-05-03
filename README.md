@@ -7,7 +7,7 @@
 <br>
 
 <h2>How It's Made</h2>
-<p>This was a group project where we had to use OOP to built the game.</p>
+<p>Project built using OOP.</p>
   
 <h2 align='center'>Techs used</h2>
 <div align='center'>
